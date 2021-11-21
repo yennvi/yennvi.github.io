@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container-2{
+	width: 600px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
+.alise-cen{
+	align-self: center;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.yellowtext{
+	color: #F4DD7A;
+}
+.whitetext{
+	color: white;
+}
+.textcen{
+	text-align: center;
+}
+.displayfont{
+	font-family: 'Comforter', cursive;
+}
+.luidaudong-1{
+	text-indent: 25px;
+}
+.luidaudong-2{
+	text-indent: 15px;
+}
+.fontw-1{
+	font-weight: 300;
+}
+.jus-end{
+	justify-content: flex-end;
+}
+.jus-cen{
+	justify-content: center;
+}
+.alitem-end{
+	align-items: flex-end;
+}
+.textright{
+	text-align: right;
+}
+@media screen and (max-width: 430px){
+	.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+		width: 100%;}
+}

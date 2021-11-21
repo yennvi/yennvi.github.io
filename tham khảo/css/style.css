@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Texturina', serif;
+	background: #0D0D0D;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 9999;
+    background: #0D0D0D;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+}
+.menu a{
+	color: #F4DD7A;
+	padding: 18px 70px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.footer{
+    height: 350px;
+	width: 100%;
+	background: #0D0D0D;
+	overflow: hidden;
+	padding: 50px 0px 0px;
+}
+.email{
+	border-radius: 20px;
+	width: 100%;
+	height: 30px;
+}
+.mess{
+	border-radius: 20px;
+	width: 100%;
+	height: 100px;
+}
+.submit{
+	right: 33px;
+	border-radius: 20px;
+	padding: 10px;
+	background: #F4DD7A;
+	width: 150px;
+	margin-top: 15px
+}
+.padright{
+	padding-right: 15px;
+}
+.thamkhao{
+	height: 200vh;
+	background: url("../img/ngocdao.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 120px 0px 50px;
+}
+a{
+	text-decoration: none;
+}
+.padding-1{
+	padding: 20px 105px;
+}
+a:hover{
+	color: white;
+}
+
+@media screen and (max-width:414px){
+	.container-2{
+		max-width: 80%;
+		padding-right: 120px;
+		
+	}
+	.neuban p{
+		width: 100%;
+	}
+	.footer{
+		height: 60vh;
+	}
+	
+}
+
+
+

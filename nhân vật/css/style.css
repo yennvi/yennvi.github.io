@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Texturina', serif;
+	background: #0D0D0D;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 9999;
+    background: #0D0D0D;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+}
+.menu a{
+	color: #F4DD7A;
+	padding: 18px 70px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.footer{
+	padding-top: 50px;
+    height: 350px;
+	width: 100%;
+	background: #0D0D0D;
+/*	overflow: hidden;*/
+}
+.email{
+	border-radius: 20px;
+	width: 100%;
+	height: 30px;
+}
+.mess{
+	border-radius: 20px;
+	width: 100%;
+	height: 100px;
+}
+.submit{
+	right: 33px;
+	border-radius: 20px;
+	padding: 10px;
+	background: #F4DD7A;
+	width: 150px;
+	margin-top: 15px
+}
+.padright{
+	padding-right: 15px;
+}
+.padright-2{
+	padding-right: 50px;
+}
+.nhanvat{
+	padding: 120px 0px 50px;
+}
+.tennhanvat h1{
+	font-size: 55px;
+	font-weight: 200;
+}
+.padding-1{
+	padding: 15px;
+}
+.padding-2{
+	padding: 15px 50px 80px;
+}
+.xemthem{
+   text-decoration: none;
+   color: #F4DD7A;
+}
+.padding-3{
+	padding: 50px 15px;
+}
+.padding-4{
+	padding: 25px 15px;
+}
+.padding-5{
+    padding: 15px 50px 10px;
+}
+.tieude h1{
+	font-size: 125px;
+	font-weight: 200;
+}
+.menu a:hover{
+	color:white;
+}
+
+
+@media screen and (max-width:414px){
+	.nhanvat body,h1,h2,h3,p{
+	width: 20%;
+	text-align: left;
+	
+	}
+	.container-2{
+		max-width: 80%;
+		text-align: center;
+		padding-right:  100px;
+		padding-bottom: 100px;
+		
+	}
+	.neuban p{
+		width: 100%;
+	}
+	.nguyentrai h1{
+		text-align: right;
+		
+	}
+	.thilo h1{
+		text-align: right;
+	}
+	.tuthanh h1{
+		text-align: right;
+	}
+	.nv h1{
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 414px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+	.header .col-12{
+		width: 10%;
+	}
+}
+
+
+
