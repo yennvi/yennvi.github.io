@@ -691,15 +691,15 @@ body{
 	background-repeat: no-repeat;
 }
 .hauky4{
-	transform: translate(-120px,50px) scale(1.1);
+	transform: translate(-120px,80px) scale(1.1);
 	animation: hk4 1s linear alternate infinite;
 }
 @keyframes hk4{
 	from{
-		transform: translate(-120px,50px) scale(1.1);
+		transform: translate(-120px,80px) scale(1.1);
 	}
 	to{
-		transform: translate(-120px,50px) scale(1.15);
+		transform: translate(-120px,80px) scale(1.15);
 	}
 }
 .trichdan-4{
