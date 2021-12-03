@@ -38,7 +38,7 @@ body{
 .phoenix{
 	z-index: 1;
 	left: -150px;
-	top: -65px;
+	top: -50px;
 	animation: phoenix 1s linear alternate infinite;
 	transform: scale(1.15);
 }
@@ -69,7 +69,7 @@ body{
 	z-index: 3;
 	transform: scale(1.36);
 	right: 0px;
-	top: 10px;
+	top: 30px;
 	animation: lavang 1s linear alternate infinite;
 }
 @keyframes lavang{
@@ -416,7 +416,7 @@ body{
 .thilo{
 	z-index: 12;
 	left: -175px;
-	top: -127px;
+	top: -100px;
 	animation: spears 1s linear alternate infinite;
 }
 @keyframes thilo{
@@ -597,15 +597,15 @@ body{
 	}
 }
 .thianh{
-	transform: translate(-190px,-90px) scale(1.1);
+	transform: translate(-190px,-70px) scale(1.1);
 	animation: thianh 1s linear alternate infinite;
 }
 @keyframes thianh{
 	from{
-		transform: translate(-190px,-90px) scale(1.1);
+		transform: translate(-190px,-70px) scale(1.1);
 	}
 	to{
-		transform: translate(-190px,-80px) scale(1.12);
+		transform: translate(-190px,-60px) scale(1.12);
 	}
 }
 .hauky{
@@ -656,10 +656,10 @@ body{
 }
 @keyframes hk2{
 	from{
-		transform: translate(-140px,-50px) scale(1.1);
+		transform: translate(-140px,-30px) scale(1.1);
 	}
 	to{
-		transform: translate(-140px,-50px) scale(1.12);
+		transform: translate(-140px,-30px) scale(1.12);
 	}
 }
 .trichdan-3{
@@ -691,15 +691,15 @@ body{
 	background-repeat: no-repeat;
 }
 .hauky4{
-	transform: translate(-120px,20px) scale(1.1);
+	transform: translate(-120px,-10px) scale(1.1);
 	animation: hk4 1s linear alternate infinite;
 }
 @keyframes hk4{
 	from{
-		transform: translate(-120px,20px) scale(1.1);
+		transform: translate(-120px,-10px) scale(1.1);
 	}
 	to{
-		transform: translate(-120px,20px) scale(1.15);
+		transform: translate(-120px,-10px) scale(1.15);
 	}
 }
 .trichdan-4{
